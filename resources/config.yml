@@ -1,0 +1,644 @@
+
+# Kart Shop - config.yml
+
+main_menu:
+  title: "&0Kart Shop"
+  size: 27
+  items:
+    weapon_category:
+      material: REDSTONE
+      slot: 11
+      name: "&c&lRedstone"
+      lore:
+        - "&7Redstone, pistões e mecanismos!"
+      opens_shop: "redstone"
+
+    ores_category:
+      material: DIAMOND
+      slot: 12
+      name: "&b&lMINÉRIOS"
+      lore:
+        - "&7Minérios e recursos"
+        - "&eClique para abrir!"
+      opens_shop: "minerios"
+
+    pvp_category:
+      material: DIAMOND_SWORD
+      slot: 13
+      name: "&c&lPvP"
+      lore:
+        - "&7Equipamentos para combate"
+      opens_shop: "pvp"
+
+    farms_category:
+      material: BAMBOO
+      slot: 14
+      name: "&a&lFARMS"
+      lore:
+        - "&7Itens para suas farms"
+      opens_shop: "farms"
+
+    food_category:
+      material: COOKED_BEEF
+      slot: 15
+      name: "&a&lFood"
+      lore:
+        - "&7Comidas e alimentos"
+      opens_shop: "food"
+
+    enchantments_category:
+      material: ENCHANTED_BOOK
+      slot: 16
+      name: "&d&lENCANTAMENTOS"
+      lore:
+        - "&7Livros encantados para seus equipamentos"
+        - "&eClique para abrir!"
+      opens_shop: "encantamentos"
+
+shops:
+  redstone:
+    title: "&8Redstone Shop"
+    size: 27
+    items:
+      redstone_dust:
+        material: REDSTONE
+        slot: 9
+        page: 1
+        name: "&bRedstone Dust"
+        cost: 7.0
+        lore:
+          - "&7Cost: $7"
+
+      repeater:
+        material: REPEATER
+        slot: 10
+        page: 1
+        name: "&bRepeater"
+        cost: 39.5
+        lore:
+          - "&7Cost: $39.5"
+
+      comparator:
+        material: COMPARATOR
+        slot: 11
+        page: 1
+        name: "&bComparator"
+        cost: 39.5
+        lore:
+          - "&7Cost: $39.5"
+
+      lever:
+        material: LEVER
+        slot: 12
+        page: 1
+        name: "&bLever"
+        cost: 7.5
+        lore:
+          - "&7Cost: $7.5"
+
+      redstone_block:
+        material: REDSTONE_BLOCK
+        slot: 13
+        page: 1
+        name: "&bRedstone Block"
+        cost: 50.0
+        lore:
+          - "&7Cost: $50"
+
+      redstone_torch:
+        material: REDSTONE_TORCH
+        slot: 14
+        page: 1
+        name: "&bRedstone Torch"
+        cost: 10.0
+        lore:
+          - "&7Cost: $10"
+
+      crafter:
+        material: CRAFTER
+        slot: 15
+        page: 1
+        name: "&bCrafter"
+        cost: 150.0
+        lore:
+          - "&7Cost: $150"
+
+      dispenser:
+        material: DISPENSER
+        slot: 16
+        page: 1
+        name: "&bDispenser"
+        cost: 75.0
+        lore:
+          - "&7Cost: $75"
+
+      dropper:
+        material: DROPPER
+        slot: 17
+        page: 1
+        name: "&bDropper"
+        cost: 37.5
+        lore:
+          - "&7Cost: $37.5"
+
+      piston:
+        material: PISTON
+        slot: 9
+        page: 2
+        name: "&bPiston"
+        cost: 60.0
+        lore:
+          - "&7Cost: $60"
+
+      sticky_piston:
+        material: STICKY_PISTON
+        slot: 10
+        page: 2
+        name: "&bSticky Piston"
+        cost: 90.0
+        lore:
+          - "&7Cost: $90"
+
+      observer:
+        material: OBSERVER
+        slot: 11
+        page: 2
+        name: "&bObserver"
+        cost: 47.5
+        lore:
+          - "&7Cost: $47.5"
+
+      hopper:
+        material: HOPPER
+        slot: 12
+        page: 2
+        name: "&bHopper"
+        cost: 100.0
+        lore:
+          - "&7Cost: $100"
+
+      target:
+        material: TARGET
+        slot: 13
+        page: 2
+        name: "&bTarget Block"
+        cost: 30.0
+        lore:
+          - "&7Cost: $30"
+
+      daylight_detector:
+        material: DAYLIGHT_DETECTOR
+        slot: 14
+        page: 2
+        name: "&bDaylight Detector"
+        cost: 42.5
+        lore:
+          - "&7Cost: $42.5"
+
+      note_block:
+        material: NOTE_BLOCK
+        slot: 15
+        page: 2
+        name: "&bNote Block"
+        cost: 20.0
+        lore:
+          - "&7Cost: $20"
+
+      powered_rail:
+        material: POWERED_RAIL
+        slot: 16
+        page: 2
+        name: "&bPowered Rail"
+        cost: 27.5
+        lore:
+          - "&7Cost: $27.5"
+
+      tripwire_hook:
+        material: TRIPWIRE_HOOK
+        slot: 17
+        page: 2
+        name: "&bTripwire Hook"
+        cost: 12.5
+        lore:
+          - "&7Cost: $12.5"
+
+      slime_block:
+        material: SLIME_BLOCK
+        slot: 9
+        page: 3
+        name: "&aBloco de Slime"
+        cost: 60.0
+        lore:
+          - "&7Preço: $60"
+
+      honey_block:
+        material: HONEY_BLOCK
+        slot: 10
+        page: 3
+        name: "&6Bloco de Mel"
+        cost: 60.0
+        lore:
+          - "&7Preço: $60"
+
+      chest:
+        material: CHEST
+        slot: 11
+        page: 3
+        name: "&fBaú"
+        cost: 15.0
+        lore:
+          - "&7Preço: $15"
+
+      powered_rail_page3:
+        material: POWERED_RAIL
+        slot: 12
+        page: 3
+        name: "&eTrilho Elétrico"
+        cost: 27.5
+        lore:
+          - "&7Preço: $27.50"
+
+      detector_rail:
+        material: DETECTOR_RAIL
+        slot: 13
+        page: 3
+        name: "&eTrilho Detector"
+        cost: 25.0
+        lore:
+          - "&7Preço: $25"
+
+      activator_rail:
+        material: ACTIVATOR_RAIL
+        slot: 14
+        page: 3
+        name: "&eTrilho Ativador"
+        cost: 25.0
+        lore:
+          - "&7Preço: $25"
+
+      hopper_minecart:
+        material: HOPPER_MINECART
+        slot: 15
+        page: 3
+        name: "&7Carrinho com Funil"
+        cost: 150.0
+        lore:
+          - "&7Preço: $150"
+
+      minecart:
+        material: MINECART
+        slot: 16
+        page: 3
+        name: "&7Carrinho"
+        cost: 50.0
+        lore:
+          - "&7Preço: $50"
+  minerios:
+    title: "&8MINÉRIOS"
+    size: 27
+    items:
+      diamond:
+        material: DIAMOND
+        slot: 9
+        name: "&bDiamante"
+        cost: 150.0
+        lore:
+          - "&7Preço: $150 cada"
+
+      gold:
+        material: GOLD_INGOT
+        slot: 10
+        name: "&6Ouro"
+        cost: 30.0
+        lore:
+          - "&7Preço: $30 cada"
+
+      lapis:
+        material: LAPIS_LAZULI
+        slot: 11
+        name: "&9Lápis-lazúli"
+        cost: 5.0
+        lore:
+          - "&7Preço: $5 cada"
+
+      copper:
+        material: COPPER_INGOT
+        slot: 12
+        name: "&6Cobre"
+        cost: 3.0
+        lore:
+          - "&7Preço: $3 cada"
+
+      coal:
+        material: COAL
+        slot: 13
+        name: "&8Carvão"
+        cost: 1.0
+        lore:
+          - "&7Preço: $1 cada"
+
+      emerald:
+        material: EMERALD
+        slot: 14
+        name: "&aEsmeralda"
+        cost: 40.0
+        lore:
+          - "&7Preço: $40 cada"
+
+      netherite_scrap:
+        material: NETHERITE_SCRAP
+        slot: 15
+        name: "&8Fragmento de Netherita"
+        cost: 3000.0
+        lore:
+          - "&7Preço: $3.000 cada"
+
+      amethyst:
+        material: AMETHYST_SHARD
+        slot: 16
+        name: "&dAmetista"
+        cost: 3.0
+        lore:
+          - "&7Preço: $3 cada"
+
+      quartz:
+        material: QUARTZ
+        slot: 17
+        name: "&fQuartzo do Nether"
+        cost: 15.0
+        lore:
+          - "&7Preço: $15 cada"
+
+  pvp:
+    title: "&4PvP Shop"
+    size: 27
+    items:
+      xp:
+        material: EXPERIENCE_BOTTLE
+        slot: 9
+        name: "&aFrasco de XP"
+        cost: 45.0
+        lore:
+          - "&7Preço: $45 cada"
+
+      golden_apple:
+        material: GOLDEN_APPLE
+        slot: 10
+        name: "&6Maçã Dourada"
+        cost: 65.0
+        lore:
+          - "&7Preço: $65 cada"
+
+      arrow:
+        material: ARROW
+        slot: 11
+        name: "&fFlecha"
+        cost: 5.0
+        lore:
+          - "&7Preço: $5 cada"
+
+      totem:
+        material: TOTEM_OF_UNDYING
+        slot: 12
+        name: "&eTotem da Imortalidade"
+        cost: 7500.0
+        lore:
+          - "&7Preço: $7.500"
+
+      tnt_minecart:
+        material: TNT_MINECART
+        slot: 13
+        name: "&cCarrinho de TNT"
+        cost: 500.0
+        lore:
+          - "&7Preço: $500 cada"
+
+      rail:
+        material: RAIL
+        slot: 14
+        name: "&7Trilho"
+        cost: 25.0
+        lore:
+          - "&7Preço: $25 cada"
+
+      bow:
+        material: BOW
+        slot: 15
+        name: "&6Arco"
+        cost: 80.0
+        lore:
+          - "&7Arco sem encantamentos"
+          - "&7Preço: $80"
+
+      crossbow:
+        material: CROSSBOW
+        slot: 16
+        name: "&6Besta"
+        cost: 80.0
+        lore:
+          - "&7Besta sem encantamentos"
+          - "&7Preço: $80"
+
+      flint_and_steel:
+        material: FLINT_AND_STEEL
+        slot: 17
+        name: "&6Isqueiro"
+        cost: 50.0
+        lore:
+          - "&7Preço: $50 cada"
+
+  encantamentos:
+    title: "&5&lENCANTAMENTOS"
+    size: 27
+    items:
+      unbreaking_book:
+        material: ENCHANTED_BOOK
+        slot: 10
+        name: "&dLivro: Durabilidade III"
+        cost: 500.0
+        stored_enchantment: "UNBREAKING:3"
+        lore:
+          - "&7Durabilidade III"
+          - "&7Preço: $500"
+
+      mending_book:
+        material: ENCHANTED_BOOK
+        slot: 11
+        name: "&dLivro: Remendo"
+        cost: 1000.0
+        stored_enchantment: "MENDING:1"
+        lore:
+          - "&7Remendo I"
+          - "&7Preço: $1.000"
+
+      quick_charge_book:
+        material: ENCHANTED_BOOK
+        slot: 12
+        name: "&dLivro: Recarga Rápida III"
+        cost: 750.0
+        stored_enchantment: "QUICK_CHARGE:3"
+        lore:
+          - "&7Recarga Rápida III"
+          - "&7Preço: $750"
+
+      flame_book:
+        material: ENCHANTED_BOOK
+        slot: 13
+        name: "&dLivro: Chama I"
+        cost: 500.0
+        stored_enchantment: "FLAME:1"
+        lore:
+          - "&7Chama I"
+          - "&7Preço: $500"
+
+  farms:
+    title: "&8FARMS"
+    size: 27
+    items:
+      bamboo:
+        material: BAMBOO
+        slot: 9
+        name: "&aBambu"
+        cost: 20.0
+        lore:
+          - "&7Preço: $20 cada"
+
+      pumpkin:
+        material: PUMPKIN
+        slot: 10
+        name: "&6Abóbora"
+        cost: 70.0
+        lore:
+          - "&7Preço: $70 cada"
+
+      cactus:
+        material: CACTUS
+        slot: 11
+        name: "&2Cacto"
+        cost: 80.0
+        lore:
+          - "&7Preço: $80 cada"
+
+      sweet_berries:
+        material: SWEET_BERRIES
+        slot: 12
+        name: "&cBagas Doces"
+        cost: 20.0
+        lore:
+          - "&7Preço: $20 cada"
+
+      pickle:
+        material: SEA_PICKLE
+        slot: 13
+        name: "&ePepino-do-mar"
+        cost: 15.0
+        lore:
+          - "&7Preço: $15 cada"
+
+      kelp:
+        material: KELP
+        slot: 14
+        name: "&2Alga"
+        cost: 35.0
+        lore:
+          - "&7Preço: $35 cada"
+
+      wheat_seeds:
+        material: WHEAT_SEEDS
+        slot: 15
+        name: "&eSemente de Trigo"
+        cost: 50.0
+        lore:
+          - "&7Preço: $50 cada"
+
+      melon:
+        material: MELON
+        slot: 16
+        name: "&aMelancia"
+        cost: 40.0
+        lore:
+          - "&7Preço: $40 cada"
+
+      iron_ingot:
+        material: IRON_INGOT
+        slot: 17
+        name: "&fFerro"
+        cost: 150.0
+        lore:
+          - "&7Preço: $150 cada"
+
+  food:
+    title: "&8Food Shop"
+    size: 27
+    items:
+      steak:
+        material: COOKED_BEEF
+        slot: 9
+        name: "&6Steak"
+        cost: 25.0
+        lore:
+          - "&7Cost: $25"
+
+      golden_carrot:
+        material: GOLDEN_CARROT
+        slot: 10
+        name: "&6Golden Carrot"
+        cost: 32.0
+        lore:
+          - "&7Cost: $32"
+
+      bread:
+        material: BREAD
+        slot: 11
+        name: "&6Bread"
+        cost: 17.5
+        lore:
+          - "&7Cost: $17.50"
+
+      cooked_mutton:
+        material: COOKED_MUTTON
+        slot: 12
+        name: "&6Cooked Mutton"
+        cost: 22.5
+        lore:
+          - "&7Cost: $22.50"
+
+      cake:
+        material: CAKE
+        slot: 13
+        name: "&6Cake"
+        cost: 60.0
+        lore:
+          - "&7Cost: $60"
+
+      cooked_porkchop:
+        material: COOKED_PORKCHOP
+        slot: 14
+        name: "&6Cooked Porkchop"
+        cost: 25.0
+        lore:
+          - "&7Cost: $25"
+
+      chicken:
+        material: CHICKEN
+        slot: 15
+        name: "&fFrango Cru"
+        cost: 10.0
+        lore:
+          - "&7Cost: $10"
+
+      raw_salmon:
+        material: SALMON
+        slot: 16
+        name: "&bSalmão Cru"
+        cost: 15.0
+        lore:
+          - "&7Cost: $15"
+
+      chorus_fruit:
+        material: CHORUS_FRUIT
+        slot: 17
+        name: "&dFruta do Coro"
+        cost: 20.0
+        lore:
+          - "&7Cost: $20"

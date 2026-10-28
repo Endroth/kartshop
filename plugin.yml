@@ -1,0 +1,16 @@
+name: SimpleShop
+version: 1.3
+main: me.rytento.simpleShop.Main
+api-version: '1.21'
+depend: [Vault]
+commands:
+  shop:
+    description: Abre a loja do servidor
+    usage: /shop [categoria|add <categoria> <preço>|reload|help]
+permissions:
+  simpleshop.reload:
+    description: Permite recarregar a configuração da loja
+    default: op
+  simpleshop.admin:
+    description: Permite adicionar itens às lojas
+    default: op
